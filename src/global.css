@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html, body {
+      @apply box-border p-0 m-0 text-indigo-500 font-roboto bg-slate-50;
+    }
+}
